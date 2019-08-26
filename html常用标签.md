@@ -53,9 +53,11 @@
     <img src="dog.jpg" alt="一只狗子" width=100px>
   src属性当然是指明图片的链接了，height和width不能同时设置（底线），最好的方法是在img样式里面加个max-width:100%;这样就能完美适配移动端（响应式）
   
+  ```
   id名.onload = function(){
     ...
   };
+  ```
   js里面有个onload和onerror的事件，如果加载图片成功或者失败，那么就可以在控制台打印一些信息，或者显示其他诸如404的图片之类的操作。
 
   
